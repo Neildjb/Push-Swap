@@ -30,5 +30,8 @@ func main() {
 			liste_nombres = append(liste_nombres, nombre)
 		}
 	}
+	if len(liste_nombres) == 0 {
+		return
+	}
 	fmt.Println(liste_nombres)
 }
